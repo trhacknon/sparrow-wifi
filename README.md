@@ -20,11 +20,11 @@ Written entirely in Python3, Sparrow-wifi has been designed for the following sc
 A few sample screenshots.  The first is the main window showing a basic wifi scan, the second shows the telemetry/tracking window used for both Wifi and bluetooth tracking.
 
 <p align="center">
-  <img src="https://github.com/ghostop14/sparrow-wifi/blob/master/sparrow-screenshot.png" width="800"/>
+  <img src="https://github.com/trhacknon/sparrow-wifi/blob/master/sparrow-screenshot.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/ghostop14/sparrow-wifi/blob/master/telemetry-screenshot.png" width="600"/>
+  <img src="https://github.com/trhacknon/sparrow-wifi/blob/master/telemetry-screenshot.png" width="600"/>
 </p>
 
 ## New Features
@@ -64,7 +64,7 @@ sudo pip3 install QScintilla gps3 dronekit manuf python-dateutil numpy matplotli
 
 Some folks have been running sparrow with a python virtualenv, if you'd like to run it in an isolated python environment, the following sequence should get you up and running:
 ```
-git clone https://github.com/ghostop14/sparrow-wifi
+git clone https://github.com/trhacknon/sparrow-wifi
 cd sparrow-wifi
 virtualenv --python=python3 $HOME/sparrow
 source $HOME/sparrow/bin/activate
@@ -110,7 +110,7 @@ Near real-time spectral overlays in both spectrums is one feature that different
 The following screenshot shows a 2.4 GHz perspective with an Ubertooth spectrum (with 1 MHz bins) overlay.  It's quite interesting to watch the spectrum when bluetooth devices are also active.  You can observe the bluetooth channel hopping in the spectrum.  There are other protocols such as zigbee and other IoT protocols, even cordless phones that may also show up in the 2.4 GHz spectrum that would not otherwise show up on a wifi-only view.  Having the spectral overlay provides an invaluable perspective on other interference in the spectrum for troubleshooting say for instance if no overlapping wireless channels seem to be the source of poor connectivity.
 
 <p align="center">
-  <img src="https://github.com/ghostop14/sparrow-wifi/blob/master/spectrum-screenshot.png" width="500"/>
+  <img src="https://github.com/trhacknon/sparrow-wifi/blob/master/spectrum-screenshot.png" width="500"/>
 </p>
 
 ### Ubertooth One
